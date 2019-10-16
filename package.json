@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "generate-invoice",
+  "version": "1.0.0",
+  "description": "Generating PDF invoices with Cloudflare Workers.",
+  "main": "index.js",
+  "author": "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
+  "license": "MIT"
+}
