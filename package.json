@@ -5,5 +5,8 @@
   "description": "Generating PDF invoices with Cloudflare Workers.",
   "main": "index.js",
   "author": "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jspdf": "^2.1.1"
+  }
 }
