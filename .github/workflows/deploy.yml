@@ -12,7 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish
-        uses: cloudflare/wrangler-action@1.0.0
+        uses: cloudflare/wrangler-action@1.2.0
         with:
           apiKey: ${{ secrets.apiKey }}
           email: ${{ secrets.email }}
+          preCommands: npm ci
