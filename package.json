@@ -7,6 +7,6 @@
   "author": "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jspdf": "^2.1.1"
+    "jspdf": "^2.3.1"
   }
 }
